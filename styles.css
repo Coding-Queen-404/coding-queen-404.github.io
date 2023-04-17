@@ -50,13 +50,13 @@ body {
 } 
 
 .binary#code::selection{
-    background: rgb(255, 255, 255); 
+    background: rgb(123, 253, 36); /*rgb(255, 255, 255);*/ 
 } 
 
 .blue-box-HOME {
     margin-top: 15px; 
     margin-left: 435px; 
-    height: 650px;
+    height: 730px;  /*650*/ 
     width: 652px;
     background-color: rgb(150, 211, 222);
     border: solid 3px black; 
@@ -65,9 +65,9 @@ body {
 
 .pink-box-with-text-HOME {
     position: relative; 
-    margin-top: -630px; 
+    margin-top: -700px; 
     margin-left: 487px; 
-    height: 610px;
+    height: 670px;
     width: 550px;
     background-color: rgb(247, 160, 248);
     border: solid 3px rgb(0, 0, 0);  
@@ -78,3 +78,55 @@ body {
     padding-top: 25px; 
     line-height: 20px;
 } 
+
+.Physics-Button{
+    position: absolute; 
+    height:40px; 
+    width:120px; 
+    left: 590px; 
+    bottom: 95px; 
+    color: rgb(0, 0, 0); 
+    text-decoration: none; 
+    transition: color 0.1s; 
+    font-family: 'Bebas Neue', cursive;
+    font-size: 16px; 
+}
+
+.Physics-Button:hover {
+    color: rgb(77, 63, 241); 
+    border:2px solid rgb(0, 0, 0); 
+} 
+
+.Maths-Button{
+    position: absolute; 
+    height:40px; 
+    width:120px; 
+    left: 810px; 
+    bottom: 95px; 
+    color: rgb(0, 0, 0); 
+    text-decoration: none; 
+    transition: color 0.1s; 
+    font-family: 'Bebas Neue', cursive;
+    font-size: 16px; 
+}
+
+.Maths-Button:hover {
+    color: rgb(77, 63, 241); 
+    border:2px solid rgb(0, 0, 0); 
+} 
+
+#Alien_DALLE2_Image{
+    position: relative;
+    bottom: 220px; 
+    left: 95px; 
+    border:5px solid #000000; padding:3px; margin:5px”
+}      
+
+#Supernovae{
+    position: relative;
+    bottom: 700px; 
+    left: 870px; 
+    border:5px solid #000000; padding:3px; margin:5px”
+}    
+ 
+ 
